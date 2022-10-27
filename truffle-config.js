@@ -2,16 +2,14 @@ const HDWalletProvider = require('@truffle/hdwallet-provider');
 
 const rinkeybyProvider = new HDWalletProvider({
   privateKeys: [
-    'ea1b307e2a73c3a97ec2dd2f8d9a8fbe1dc5fa7d37c5dd37cfbffcd9ea6c9c64',
-    'ea1b307e2a73c3a97ec2dd2f8d9a8fbe1dc5fa7d37c5dd37cfbffcd9ea6c9c64',
+   
   ],
   providerOrUrl: 'https://rinkeby.infura.io/v3/2e3547df678a48bf95aeda0ef8f6ab25' 
 });
 
 const binanceProvider = new HDWalletProvider({
   privateKeys: [
-    'ea1b307e2a73c3a97ec2dd2f8d9a8fbe1dc5fa7d37c5dd37cfbffcd9ea6c9c64',
-    'ea1b307e2a73c3a97ec2dd2f8d9a8fbe1dc5fa7d37c5dd37cfbffcd9ea6c9c64',
+    
   ],
   providerOrUrl: 'https://data-seed-prebsc-1-s1.binance.org:8545/'
 });
